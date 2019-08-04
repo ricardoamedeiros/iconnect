@@ -1,7 +1,9 @@
 package br.com.salute.dto;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Calendar;
 
+@XmlRootElement
 public class IsbnDTO {
     private String codigoIsbn;
     private String titulo;
